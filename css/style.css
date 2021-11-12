@@ -1,0 +1,25 @@
+body {
+	font-family: 'Petemoss', cursive;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 75px;
+}
+.header {
+	background: rgba(60,217,144,1);
+	background: -moz-linear-gradient(-45deg, rgba(60,217,144,1) 0%, rgba(9,195,242,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(60,217,144,1)), color-stop(100%, rgba(9,195,242,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(60,217,144,1) 0%, rgba(9,195,242,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(60,217,144,1) 0%, rgba(9,195,242,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(60,217,144,1) 0%, rgba(9,195,242,1) 100%);
+	background: linear-gradient(135deg, rgba(60,217,144,1) 0%, rgba(9,195,242,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cd990', endColorstr='#09c3f2', GradientType=1 );
+}
+.container {
+	width: 100px;
+	margin: 0 auto;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
